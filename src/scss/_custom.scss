@@ -1,0 +1,38 @@
+// Here you can add other styles
+.noBorder {
+  border: none;
+}
+
+.card-header {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.c-sidebar-nav{
+  .c-sidebar-nav-link{
+    transition: color, background-color ease-in-out 0.3s;
+    &.c-active{
+      background-color: #ebedef;
+      color: black;
+      .fa{
+        color: darkred;
+      }
+    }
+  }
+
+}
+.c-sidebar .c-sidebar-nav-title{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}

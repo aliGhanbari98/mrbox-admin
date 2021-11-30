@@ -1,0 +1,11 @@
+.headerContainer {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    .title {
+      > :last-child {
+        margin-left: 10px;
+      }
+    }
+  }
+}

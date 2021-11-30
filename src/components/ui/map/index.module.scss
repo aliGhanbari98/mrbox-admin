@@ -1,0 +1,14 @@
+.map {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 15px;
+
+  > div {
+    height: 300px;
+    border-radius: 10px;
+  }
+
+  :global(.leaflet-container) {
+    z-index: 2 !important;
+  }
+}

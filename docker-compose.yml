@@ -1,0 +1,21 @@
+version: "3.7"
+
+services:
+  mr_box_superadmin:
+    image: ${CI_REGISTRY_IMAGE}:${CI_COMMIT_TAG}
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: none
+        delay: 5s
+        max_attempts: 3
+        window: 120s
+    ports:
+      - 3007:80
+    networks:
+      - main
+
+networks:
+  main:
+    external: true
+    name: FR-NET

@@ -1,0 +1,17 @@
+.infoField {
+  > div {
+    border: none;
+    .innerBadge {
+      margin-left: 10px;
+    }
+    .innerButton {
+      margin-left: 10px;
+    }
+  }
+
+  .langField {
+    > div:not(:first-child) {
+      margin-top: 10px;
+    }
+  }
+}

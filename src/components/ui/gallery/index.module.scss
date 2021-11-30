@@ -1,0 +1,21 @@
+.card {
+  .header {
+    display: flex;
+    align-items: flex-end;
+  }
+}
+
+.value {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.widget {
+  > div {
+    :last-child {
+      display: none;
+    }
+  }
+}

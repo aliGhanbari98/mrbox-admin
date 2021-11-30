@@ -1,0 +1,23 @@
+.headerContainer {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    .title {
+      > :last-child {
+        margin-left: 10px;
+      }
+    }
+  }
+  .headerBody {
+    font-size: 0.875rem;
+    font-weight: normal;
+  }
+}
+
+.body {
+  tbody {
+    > :last-child {
+      // margin-bottom: 500px !important;
+    }
+  }
+}
